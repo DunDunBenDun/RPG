@@ -4,8 +4,8 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [Header("Movement")]
-    [SerializeField] private float walkSpeed = 3.5f;
-    [SerializeField] private float runSpeed = 6.0f;
+    [SerializeField] private float walkSpeed = 3f;
+    [SerializeField] private float runSpeed = 5.5f;
     [SerializeField] private float rotationSpeed = 12.0f;
     [SerializeField] private float gravity = 20.0f;
     [SerializeField] private bool moveRelativeToCamera = true;
