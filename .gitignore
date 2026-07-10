@@ -1,0 +1,29 @@
+# Unity 核心缓存/临时目录（必须屏蔽）
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]serSettings/
+/[Uu]nityCrashReporter*
+
+# 资源商店缓存
+/Assets/AssetStoreTools*
+
+# VS/VSCode 项目文件（可屏蔽）
+.vs/
+*.user
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.unityproj
+
+# 系统垃圾文件
+*.swp
+*.bak
+*.log
+Thumbs.db
+.DS_Store

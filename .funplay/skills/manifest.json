@@ -1,0 +1,12 @@
+{
+    "platforms": [
+        "cursor"
+    ],
+    "optionalSkills": [],
+    "skillVersions": [
+        {
+            "id": "unity-mcp-workflow",
+            "version": "1.0.0"
+        }
+    ]
+}
