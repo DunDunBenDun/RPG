@@ -172,7 +172,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e200482a52aa9104486905ab3ce1e50e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 6
+  walkSpeed: 3
+  runSpeed: 5.5
   rotationSpeed: 12
   gravity: 20
   moveRelativeToCamera: 1
@@ -364,6 +365,22 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.91, z: 0}
+--- !u!114 &344020802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344020796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac6852d2d2e580449e0f987ed54d7c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 290886800}
+  attackRange: 10
+  attackInterval: 2
+  faceTarget: 1
 --- !u!1001 &398178423
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -445,6 +462,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 344020799}
+    - targetCorrespondingSourceObject: {fileID: 6226659005988928242, guid: 91253c3d588330c4f8ac379c7ef7a1e1,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 344020802}
   m_SourcePrefab: {fileID: 100100000, guid: 91253c3d588330c4f8ac379c7ef7a1e1, type: 3}
 --- !u!1 &410087039
 GameObject:

@@ -1,6 +1,7 @@
 {
     "platforms": [
-        "cursor"
+        "cursor",
+        "codex"
     ],
     "optionalSkills": [],
     "skillVersions": [
