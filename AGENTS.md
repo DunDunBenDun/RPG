@@ -33,7 +33,7 @@ This file is managed by Funplay MCP for Unity.
 
 ## Project
 
-- Project root: `D:\RPG\My RPG`
+- Project root: `D:\My RPG`
 - Product name: `My RPG`
 
 ## Notes
