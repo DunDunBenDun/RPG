@@ -8,7 +8,7 @@
         "com.unity.nuget.newtonsoft-json": "3.2.1",
         "com.unity.inputsystem": "1.7.0"
       },
-      "hash": "b2eca5522bbc1bc3f7185c157ee7795dd2db5c62"
+      "hash": "458c49b47f790b570374e4da34965be5222c6232"
     },
     "com.unity.burst": {
       "version": "1.8.21",
