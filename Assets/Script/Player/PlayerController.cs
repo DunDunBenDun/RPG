@@ -135,6 +135,8 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
+        
+
         Vector2 animationDirection = GetAnimationInput(moveInput, moveDirection, isRunning);
 
         // 第三个参数是阻尼时间，让动画参数平滑变化，避免方向切换时太生硬。
