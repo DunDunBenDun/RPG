@@ -8,7 +8,10 @@
 | --- | --- | --- |
 | 生命周期 | Unity `MonoBehaviour` 从创建、初始化、逐帧更新到销毁的执行过程 | [进入“生命周期”](./生命周期/README.md) |
 | 组件 | Unity 常用组件的属性、用法、代码操作与常见问题 | [进入“组件”](./组件/README.md) |
-| Lua | 从 C# 开发者视角学习 Lua 语法、运行模型、工程实践与 Unity 交互 | [进入“Lua”](./Lua/README.md) |
+| Lua | Lua 入门语法，以及 Unity/C# 视角的进阶模块 | [进入“Lua”](./Lua/README.md) |
+| C# | C# 入门语法与 Unity 开发进阶知识 | [进入“C#”](./CSharp/README.md) |
+| C++ | 从 C# 开发者视角理解现代 C++ 基础 | [进入“C++”](./CPlusPlus/README.md) |
+| Python | 了解 Python 基础和项目辅助脚本用途 | [进入“Python”](./Python/README.md) |
 
 ## 维护约定
 
