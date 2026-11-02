@@ -27,3 +27,10 @@
 *.log
 Thumbs.db
 .DS_Store
+
+# 本地 AI 工具说明/配置（不属于游戏资源）
+/AGENTS.md
+/.codex/
+/.cursor/
+/.funplay/
+/.claude/
