@@ -15,11 +15,11 @@ public class FollowToPlayer : MonoBehaviour
     private void Start()
     {
         // 游戏开始后隐藏鼠标，避免鼠标指针挡住画面。
-        Cursor.visible = false;
+        //Cursor.visible = false;
 
         // 锁定鼠标到游戏窗口中，防止玩家操作时鼠标跑到窗口外。
         // 在编辑器 Play 模式里可以按 Esc 让鼠标重新显示。
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.lockState = CursorLockMode.Locked;
     }
 
     private void LateUpdate()
